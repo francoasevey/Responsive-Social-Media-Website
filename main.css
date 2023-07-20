@@ -10,6 +10,11 @@
     --color-danger: hsl(0, 95%, 65%);
     --color-dark: hsl(252, 30%, 17%);
     --color-black: hsl(252, 30%, 10%);
+    --border-radius: 2rem;
+    --card-border-radius: 1rem;
+    --btn-padding: 0.6rem 1rem;
+    --search-padding: 0.6rem 2rem;
+    --card-padding: 1rem;
 }
 *,
 *::before,
@@ -37,4 +42,12 @@ body{
     aspect-ratio: 1/1;
     border-radius: 50%;
     overflow: hidden;
+}
+img{
+    display: block;
+    width: 100%;
+}
+.btn{
+    display: inline-block;
+    padding: var();
 }
