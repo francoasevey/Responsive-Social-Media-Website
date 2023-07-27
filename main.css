@@ -102,3 +102,7 @@ nav .create{
     align-items: center;
     gap: 2rem;
 }
+main{
+    position: relative;
+    top: 5.4rem;
+}
