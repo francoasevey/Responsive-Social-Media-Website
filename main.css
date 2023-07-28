@@ -142,3 +142,6 @@ main .container .left .profile{
     translate: all 300ms ease;
     position: relative;
 }
+.left .sidebar .menu-item:hover{
+    background: var(--color-light);
+}
