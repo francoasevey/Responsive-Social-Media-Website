@@ -185,3 +185,7 @@ main .container .left .profile{
     border-top-left-radius: var(--card-border-radius);
     overflow: hidden;
 }
+.left .sidebar .menu-item:last-child.active{
+    border-top-left-radius: var(--card-border-radius);
+    overflow: hidden;
+}
