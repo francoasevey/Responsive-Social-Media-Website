@@ -193,5 +193,16 @@ main .container .left .profile{
     margin-top: 1rem;
     width: 100%;
     text-align: center;
-    padding: 1rem;
+    padding: 1rem 0;
+}
+.left .notifications-popup{
+    position: absolute;
+    top: 0;
+    left: 110%;
+    width: 30rem;
+    background: var(--color-white);
+    border-radius: var(--card-border-radius);
+    padding: var(--card-padding);
+    box-shadow: 0 0 2rem hsl(var(--color-primary), 75%, 60%, 25%);
+    z-index: 8;
 }
