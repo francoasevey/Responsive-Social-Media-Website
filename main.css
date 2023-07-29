@@ -189,3 +189,9 @@ main .container .left .profile{
     border-top-left-radius: var(--card-border-radius);
     overflow: hidden;
 }
+.left .btn{
+    margin-top: 1rem;
+    width: 100%;
+    text-align: center;
+    padding: 1rem;
+}
