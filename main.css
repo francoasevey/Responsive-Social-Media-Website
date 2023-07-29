@@ -181,3 +181,7 @@ main .container .left .profile{
     position: absolute;
     background: var(--color-primary);
 }
+.left .sidebar .menu-item:first-child.active{
+    border-top-left-radius: var(--card-border-radius);
+    overflow: hidden;
+}
