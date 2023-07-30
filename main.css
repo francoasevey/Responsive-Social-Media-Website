@@ -220,7 +220,7 @@ main .container .left .profile{
 .left .notifications-popup > div{
     display: flex;
     align-items: start;
-    gap: 1;
+    gap: 1rem;
     margin-bottom: 1rem;
 }
 .left .notifications-popup small{
