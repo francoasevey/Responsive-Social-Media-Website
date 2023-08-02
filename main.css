@@ -239,8 +239,10 @@ main .container .left .profile{
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    color: white;
     font-size: 0.75rem;
     width: 100%;
-    gap: 0.5rem;
-    background: red;
+    position: relative;
+    position: relative;
+    overflow: hidden;
 }
