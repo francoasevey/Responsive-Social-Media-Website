@@ -231,7 +231,6 @@ main .container .left .profile{
     justify-content: space-between;
     height: 12rem;
     gap: 0.5rem;
-    background: red;
 }
 .middle .stories .story{
     padding: var(--card-padding);
@@ -242,4 +241,6 @@ main .container .left .profile{
     align-items: center;
     font-size: 0.75rem;
     width: 100%;
+    gap: 0.5rem;
+    background: red;
 }
