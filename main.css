@@ -246,6 +246,12 @@ main .container .left .profile{
     position: relative;
     overflow: hidden;
 }
+.middle .stories .story::before{
+    content: "";
+    display: block;
+    width: 100;
+    
+}
 .middle .stories .story:nth-child(1){
     background: url("/images/story-1.jpg") no-repeat center center/cover;
 }
