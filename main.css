@@ -312,3 +312,12 @@ main .container .left .profile{
     display: flex;
     justify-content: space-between;
 }
+.middle .feed .user{
+    display: flex;
+    gap: 1rem;
+}
+.middle .feed .photo{
+    border-radius: var(--card-border-radius);
+    overflow: hidden;
+    margin: 0.7rem 0;
+}
