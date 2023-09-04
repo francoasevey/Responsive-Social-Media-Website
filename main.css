@@ -391,13 +391,13 @@ main .container .right{
     display: flex;
     gap: 1rem;
     margin-bottom: 1rem;
-    align-items: start;
+    align-items: flex-start;
 }
 .right .message .profile-photo{
     position: relative;
     overflow: visible;
 }
-.right .profile-photo img{
+.right .message .profile-photo img{
     border-radius: 50%;
 }
 .right .messages .message:last-child{
@@ -456,6 +456,7 @@ main .container .right{
     padding: 3rem;
     border-radius: var(--card-border-radius);
     width: 50%;
+    box-shadow: 0 0 1rem var(--color-primary);
 }
 .customize-theme .font-size{
     margin-top: 5rem;
@@ -625,5 +626,8 @@ main .container .right{
     }
     main .container .right{
         display: none;
+    }
+    .customize-theme .card{
+        width: 92vw;
     }
 }
